@@ -1,0 +1,39 @@
+body{
+  background-color: #f0f0f0;
+}
+h1{
+  color: rgb(255, 0, 0);
+  font-size: 20px;
+}
+p{
+  font-size: large;
+  text-align: center;
+  font-weight: bold;
+}
+img{
+  max-width: 25%;
+  min-width: 25%;
+}
+.enviar{
+  background-color: rgb(0, 0, 255);
+}
+.etiqueta{
+  font-size: 20px;
+}
+ol{
+  font-size: 30px;
+  color: purple;
+  text-align: center;
+  font-family: fantasy;
+}
+ul li{
+  color: green;
+  font-weight: bold;
+}
+ul li {
+  background-color: yellow;
+}
+form{
+  background-color: rgb(34, 157, 200);
+}
+
