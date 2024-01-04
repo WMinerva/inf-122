@@ -1,3 +1,5 @@
-NOMBRE: Isreal Nicolas Choque Ochoa
+NOMBRE: Israel Nicolas Choque Ochoa
+
 MATERIA: INF-122
-COLOR FAVORITO: #001F3F
+
+COLOR FAVORITO: #001F3F <!--  azulmarino -->
