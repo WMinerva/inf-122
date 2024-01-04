@@ -1,0 +1,27 @@
+body{
+  background-color: #DAF7A6;
+}
+h1{
+  text-align: center;
+  color: #900C3F;
+}
+h2{
+  color: #900C3F;
+}
+form{
+  
+  align-items: center;
+  display: flexbox;
+  flex-direction: column;
+}
+label{
+  color: #FF5733;
+}
+.enviar{
+  border-radius: 8px;
+  color: #581845;
+  background-color: #FF5733;
+}
+.etiqueta{
+  background-color: #FFC300;
+}
