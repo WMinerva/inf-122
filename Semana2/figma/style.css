@@ -9,3 +9,6 @@ body{
   --light-purple: #efe9f9;
   --sm: 14px;
 }
+p{
+  text-align: center;
+}
