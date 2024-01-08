@@ -43,7 +43,9 @@ var elemento = colores.pop();
 console.log(elemento);
 console.log(colores);
 console.log("--------- ------- ----------");
-console.log(colores.find("verde"[0]));
+console.log(colores.find(function (elemento){
+  return elemento ==="rojo";
+}));
 
 console.log("--------- ------- ----------");
 
