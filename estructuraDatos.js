@@ -44,7 +44,15 @@ console.log(elemento);
 console.log(colores);
 console.log("--------- ------- ----------");
 console.log(colores.find(function (elemento){
-  return elemento ==="rojo";
+  return elemento === "rojo";
+}));
+console.log(colores.find(function (elemento){
+// devuelve el indice del elemento buscado "1" si no esta devuelve -1
+return elemento === 1;
+}));
+
+console.log(colores.find(function (elemento){
+  return elemento === "rojo";
 }));
 
 console.log("--------- ------- ----------");
