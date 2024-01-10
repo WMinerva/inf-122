@@ -73,6 +73,20 @@ body{
   align-items: center;
   background-color: var(--light-purple);
 }
+.button-if-strech{
+  background-color: var(--purple);
+  color: var(--white);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: var(--md);
+  cursor: pointer;
+  margin: 100px 0 100px 0;
+  display: none;
+}
+.button-container{
+  text-align: center;
+}
 :root{
   --white: #ffffff;
   --black: #000000;
@@ -85,3 +99,15 @@ body{
 /* p{ */
 /*   text-align: center; */
 /* } */
+@media (max-width: 720px){
+  .icons-container {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 50px 10px 50px 10px;
+  }
+  .subtitle{
+    display: none;
+  }
+  .button-if-strech{
+    display: inline;
+  }
+}
