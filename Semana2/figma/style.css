@@ -3,6 +3,7 @@ body{
   margin: 0;
 }
 .main{
+  /* border: 3px solid blue; */
   width: 100%;
   height: 100vh;
   display: grid;
@@ -10,10 +11,11 @@ body{
   background-color: var(--white);
 }
 .brochure{
+  /* border: 3px solid red; */
   display: grid;
   /* grid-template-columns: 1fr 2fr; */
   grid-template-rows: auto 1fr auto;
-  width: 100%;
+  width: 80%;
   justify-items: center;
   background-color: var(--white);
 }
@@ -23,10 +25,11 @@ body{
   font-size: var(--lg);
 }
 .subtitle{
+  /* border: 3px solid red; */
   color: var(--black);
   text-align: center;
   font-size: var(--md);
-  margin: 5px 0 5px 0;
+  margin: 5px 0px 5px 0;
 }
 .primary-button{
   background-color: var(--purple);
@@ -69,6 +72,7 @@ body{
   margin: 0;
 }
 .more-info{
+  /* border: 3px solid red; */
   display: grid;
   align-items: center;
   background-color: var(--light-purple);
@@ -85,7 +89,10 @@ body{
   display: none;
 }
 .button-container{
+  display: flex;
+  border: 3px solid red;
   text-align: center;
+  gap: 0px 8px;
 }
 :root{
   --white: #ffffff;
