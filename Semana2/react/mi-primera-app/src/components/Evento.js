@@ -10,7 +10,6 @@ function Evento(){
         src={require("../images/evento1.jpg")}
         alt="Foto del evento" />
 
-
       <div className="card-content">
         <h2 className="card-title">Py Pizza 03 - PyPuzzle</h2>
         <p className="card-date">09 de Diciembre de 2023 - 13:30 GMT-4</p>
