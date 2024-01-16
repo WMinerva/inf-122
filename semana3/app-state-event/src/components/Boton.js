@@ -1,15 +1,17 @@
 import React from "react";
-import '../style/Boton.css'; 
+import "../style/Boton.css";
 
-function Boton({texto, esBotonClick, funcionClick}) {
-
+function Boton({ texto, esBotonClick, funcionClick }) {
   return (
-    <button className={esBotonClick ? "boton-click" : "boton-reiniciar"}
-    onClick={funcionClick}
-    >
-    {texto}
-   </button>
-  )
-
-}  
+    <>
+      <h1></h1>{" "}
+      <button
+        className={esBotonClick ? "boton-click" : "boton-reiniciar"}
+        onClick={funcionClick}
+      >
+        {texto}
+      </button>
+    </>
+  );
+}
 export default Boton;
