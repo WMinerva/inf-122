@@ -3,6 +3,7 @@ import "../styles/ListaNotas.css";
 import Nota from "./Nota";
 
 //Tarea arrgelar 2 o 3 bugs
+//pero no recuerdo que dijo la Lic
 
 function ListaNotas() {
   const [notas, setNotas] = useState([]);
