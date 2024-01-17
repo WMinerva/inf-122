@@ -1,11 +1,8 @@
 import React from "react";
-import '../style/Contador.css';
-function Contador({ nroClicks }) {
-  return (
-    <div className="contador">
-      {nroClicks}
+import "../style/Contador.css";
 
-    </div>
-  );
+function Contador({ nroClicks, mostrar }) {
+  return mostrar ? <div className="contador">{nroClicks}</div> : null;
 }
- export default Contador;
+
+export default Contador;
