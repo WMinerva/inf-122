@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "../styles/ListaNotas.css";
 import Nota from "./Nota";
 
+//Tarea arrgelar 2 o 3 bugs
+
 function ListaNotas() {
   const [notas, setNotas] = useState([]);
   const [nuevaNota, setNuevaNota] = useState("");
